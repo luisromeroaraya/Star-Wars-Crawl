@@ -38,7 +38,7 @@ Ever seen the [Star Wars intro](https://www.youtube.com/watch?v=C587lNBQXAw)? We
 * deploy on a Github page
 
 ## Optional
-* add music with the ```audio```[tag](https://www.w3schools.com/tags/tag_audio.asp)
+* add music with the ```audio``` [tag](https://www.w3schools.com/tags/tag_audio.asp)
 
 ## Resources
 * [Center an element](https://www.w3schools.com/css/css_align.asp)

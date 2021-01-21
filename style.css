@@ -30,6 +30,12 @@ h2 {
     text-align: center;
 }
 
+h3 {
+    font-size: 96px;
+    color: yellow;
+    text-align: center;
+}
+
 p {
     font-size: 84px;
     color: yellow;
@@ -78,12 +84,21 @@ p {
     100% {opacity: 0; transform: scale(0);}
 }
 
+#textcontainer {
+    position: absolute;
+    margin: auto;
+    width: 120%;
+    height: 200%;
+    left: -5%;
+    bottom: 0;
+    text-align: justify;
+    transform-origin: 50% 100%;
+    transform: perspective(300px) rotateX(20deg);
+}
+
 #text {
     position: absolute;
     top: 100%;
-    width: 60%;
-    margin: auto;
-    text-align: justify;
     animation-name: atext;
     animation-duration: 73s;
     animation-delay: 17s;
@@ -92,7 +107,7 @@ p {
 }
 
 @keyframes atext {
-    0% {opacity: 1; top: 100%;}
-    99% {opacity: 1; top: -99%}
-    100% {opacity: 0; top: -100%;}
-}
+    0% { top: 100%; opacity: 1;}
+    99% { top: -200%; opacity: 0.9;}
+    100% { top: -200%; opacity: 0;}
+  }

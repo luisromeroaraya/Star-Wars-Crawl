@@ -33,15 +33,6 @@ p {
     color: yellow;
 }
 
-#logo {
-    height: 100%;
-    width: 60%;
-    position: absolute;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
 #intro {
     height: 100%;
     width: 60%;
@@ -49,6 +40,39 @@ p {
     display: flex;
     justify-content: center;
     align-items: center;
+    animation-name: aintro;
+    animation-duration: 6s;
+    animation-delay: 1s;
+    animation-iteration-count: 1;
+    opacity: 0;
+}
+
+@keyframes aintro {
+    0% {opacity: 0;}
+    20% {opacity: 1;}
+    80% {opacity: 1;}
+    100% {opacity: 0;}
+}
+
+#logo {
+    height: 100%;
+    width: 60%;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation-name: alogo;
+    animation-duration: 12s;
+    animation-delay: 8s;
+    animation-iteration-count: 1;
+    opacity: 0;
+}
+
+@keyframes alogo {
+    0% {opacity: 0; transform: translateZ(100px) perspective(100px);}
+    1% {opacity: 1; transform: translateZ(100px) perspective(100px);}
+    99% {opacity: 1; transform: translateZ(-100px) perspective(100px);}
+    100% {opacity: 0; transform: translateZ(-100px) perspective(100px);}
 }
 
 #text {
@@ -56,4 +80,17 @@ p {
     width: 60%;
     margin: auto;
     text-align: justify;
+    animation-name: atext;
+    animation-name: alogo;
+    animation-duration: 73s;
+    animation-delay: 17s;
+    animation-iteration-count: 1;
+    opacity: 0;
+}
+
+@keyframes atext {
+    0% {opacity: 0;}
+    1% {opacity: 1;}
+    99% {opacity: 1;}
+    100% {opacity: 0;}
 }

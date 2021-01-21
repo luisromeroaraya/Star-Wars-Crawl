@@ -87,13 +87,13 @@ p {
 #textcontainer {
     position: absolute;
     margin: auto;
-    width: 120%;
+    width: 60%;
     height: 200%;
-    left: -10%;
+    left: 20%;
     bottom: 0;
     text-align: justify;
     transform-origin: 50% 100%;
-    transform: perspective(300px) rotateX(20deg);
+    transform: perspective(350px) rotateX(20deg) scale(1.5);
 }
 
 #text {

@@ -4,6 +4,8 @@
 }
 
 html {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
     background-image: url(https://starwarsblog.starwars.com/wp-content/uploads/2020/04/star-wars-backgrounds-25.jpg);
     height: 100vh;
     width: 100vw;
@@ -16,17 +18,31 @@ body {
 }
 
 h1 {
-    font-size: 28px;
+    font-size: 48px;
+    color: #1deffd;
 }
 
 h2 {
-    font-size: 24px;
+    font-size: 48px;
+    color: yellow;
 }
 
-h3 {
-    font-size: 20px;
+p {
+    font-size: 48px;
+    color: yellow;
 }
 
-h4 {
-    font-size: 18px;
+#logo {
+    margin: auto;
+    text-align: center;
+}
+
+#intro {
+    margin: auto;
+    text-align: left;
+}
+
+#text {
+    margin: auto;
+    text-align: justify;
 }

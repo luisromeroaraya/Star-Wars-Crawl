@@ -41,6 +41,10 @@ p {
     color: yellow;
 }
 
+#song {
+    position: absolute;
+}
+
 #intro {
     height: 100%;
     width: 60%;

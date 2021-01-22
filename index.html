@@ -5,13 +5,16 @@
         <meta charset="utf-8">
         <title>Star Wars Crawl</title>
         <link rel="stylesheet" href="style.css">
+        <script type="text/javascript"> 
+            setTimeout(function(){ 
+            document.getElementById("song").play();            
+            }, 7500)
+        </script> 
     </head>
 
     <body>
-        <section id=song>
-            <audio controls>
-                <source src="https://www.televisiontunes.com/uploads/audio/Star%20Wars%20-%20Main%20Theme.mp3" type="audio/mpeg">
-                Your browser does not support the audio element.
+        <section id=player>
+            <audio src="https://www.televisiontunes.com/uploads/audio/Star%20Wars%20-%20Main%20Theme.mp3" type="audio/mpeg" controls id=song>
             </audio>
         </section>
         <section id=intro>

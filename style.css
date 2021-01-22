@@ -41,8 +41,8 @@ p {
     color: yellow;
 }
 
-#song {
-    position: absolute;
+#player {
+    opacity: 0;
 }
 
 #intro {

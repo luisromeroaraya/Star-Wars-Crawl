@@ -18,18 +18,18 @@ Ever seen the [Star Wars intro](https://www.youtube.com/watch?v=C587lNBQXAw)? We
 
 **First version**
 - [x] create the repository
-- [ ] write the website base structure
-- [ ] the introduction text is A long time ago
+- [x] write the website base structure
+- [x] the introduction text is A long time ago
 - [ ] use [lorem ipsum](http://en.lipsum.com/) for the core text
 - [x] add stars to the background
-- [ ] change the introduction text to blue
-- [ ] center the content on the page
-- [ ] commit/push
+- [x] change the introduction text to blue
+- [x] center the content on the page
+- [x] commit/push
 
 **Second version**
-- [ ] incline the content (hint: 3D rotation)
-- [ ] automatically scroll the content (hint: animation, @keyframe, transform)
-- [ ] commit/push
+- [x] incline the content (hint: 3D rotation)
+- [x] automatically scroll the content (hint: animation, @keyframe, transform)
+- [x] commit/push
 
 **Final version**
 - [ ] replace the Star Wars logo by the BeCode logo

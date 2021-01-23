@@ -41,8 +41,28 @@ p {
     color: yellow;
 }
 
+#mute {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 10;
+}
+
+#mute a {
+    text-decoration: none;
+    color:white;
+}
+
+#mute a:visited {
+    color: green;
+}
+
+#on:active {
+    color: green;
+}
+
 #player {
-    opacity: 0;
+    display: none;
 }
 
 #intro {

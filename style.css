@@ -10,6 +10,16 @@ html {
     background-image: url(https://starwarsblog.starwars.com/wp-content/uploads/2020/04/star-wars-backgrounds-25.jpg);
     height: 100vh;
     width: 100vw;
+    animation-name: achile;
+    animation-duration: 10s;
+    animation-delay: 91s;
+    animation-iteration-count:infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes achile {
+    0% {background-image: url(https://www.fg-a.com/flags/animated-chile-flag-2.gif); background-color:white; background-repeat: repeat;}
+    100% {background-image: url(https://www.fg-a.com/flags/animated-chile-flag-2.gif); background-color:white; background-repeat: repeat;}
 }
 
 body {
@@ -121,4 +131,28 @@ p {
     0% { top: 100%; opacity: 1;}
     99% { top: -200%; opacity: 0.9;}
     100% { top: -200%; opacity: 0;}
-  }
+}
+
+#dance {
+    height: 100%;
+    width: 60%;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    animation-name: adance;
+    animation-duration: 10s;
+    animation-delay: 91s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes adance {
+    0% {opacity: 1;}
+    100% {opacity: 1;}
+}
+
+#cumbia {
+    display: none;
+}
